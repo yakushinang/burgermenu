@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/animated-burger-menu/static/css/main.686bce94.chunk.css",
+    "main.js": "/animated-burger-menu/static/js/main.6e00e72b.chunk.js",
+    "main.js.map": "/animated-burger-menu/static/js/main.6e00e72b.chunk.js.map",
+    "runtime-main.js": "/animated-burger-menu/static/js/runtime-main.ede528ce.js",
+    "runtime-main.js.map": "/animated-burger-menu/static/js/runtime-main.ede528ce.js.map",
+    "static/js/2.cd4cf0d9.chunk.js": "/animated-burger-menu/static/js/2.cd4cf0d9.chunk.js",
+    "static/js/2.cd4cf0d9.chunk.js.map": "/animated-burger-menu/static/js/2.cd4cf0d9.chunk.js.map",
+    "index.html": "/animated-burger-menu/index.html",
+    "precache-manifest.e46590e61133fca98bd67346fd34fde2.js": "/animated-burger-menu/precache-manifest.e46590e61133fca98bd67346fd34fde2.js",
+    "service-worker.js": "/animated-burger-menu/service-worker.js",
+    "static/css/main.686bce94.chunk.css.map": "/animated-burger-menu/static/css/main.686bce94.chunk.css.map",
+    "static/js/2.cd4cf0d9.chunk.js.LICENSE.txt": "/animated-burger-menu/static/js/2.cd4cf0d9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/animated-burger-menu/static/media/Image005.40b253b1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ede528ce.js",
+    "static/js/2.cd4cf0d9.chunk.js",
+    "static/css/main.686bce94.chunk.css",
+    "static/js/main.6e00e72b.chunk.js"
+  ]
+}
