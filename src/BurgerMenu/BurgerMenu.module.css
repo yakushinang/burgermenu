@@ -1,29 +1,18 @@
   .bm_main_container {
     width: 100%;
     height: 100%;
-    /* padding: 10px 10px; */
-        display: flex;
+    display: flex;
   }
   .bm_icon_container{
     display: inline-block;
     cursor: pointer;
     width: 100%;
-    /* border: solid 1px #ceff7a; */
-    /* background-color: lightslategrey; */
-
   }
   .bar1, .bar2, .bar3 {
-    /* width: 85%; */
     width: 100%;
     height: 5px;
     background-color: #ceff7a;
-    margin: 0 0;
-
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;  */
-    
+    margin: 0 0;   
   }
   .bar2{
     margin: 6px 0;
@@ -66,7 +55,6 @@
   .bm_links_container li *{
     cursor: pointer;
     font-size: 36px;
-    /* background-color: none;; */
   }
   .bm_links_container li *:hover, 
   #bm_links_container li *:focus {
