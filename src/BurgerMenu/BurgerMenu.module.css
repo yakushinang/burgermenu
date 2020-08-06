@@ -35,7 +35,7 @@
     left: 0;
     background-color: rgb(40,44,52,0.9) ; 
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
   }
   .bm_links_container ul{
     position: relative;
@@ -44,6 +44,7 @@
     text-align: center;
     margin-top: 30px;
     list-style-type: none;
+    padding-left: 0px;;
   }
   .bm_links_container li {
     padding: 8px;
@@ -80,4 +81,22 @@
   }
   .opened .fallDown{
     height: 100% !important;
+  }
+
+  /* dote left */
+  .doteLeft{
+    position: fixed;
+    /* background: #204b56; */
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(35px at 0% -10%);
+    -webkit-clip-path: circle(35px at 0% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .opened .doteLeft{
+    clip-path: circle(1000px at 0% -10%);
+    -webkit-clip-path: circle(1000px at 0% -10%);
+    pointer-events: all;
   }

@@ -12,11 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
+.App{
   background-color: #282c34;
   background-image: url(./assets/Image005.jpg);
   background-position: center;
+  min-height: 100vh;
+}
+.App-header {
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,9 +33,10 @@
   color: #61dafb;
 }
 .menuBar{
-  background: #204b56;
-  width: 100%;
-  height: 100px;
+  background: rgb(40,44,52);
+  /* width: 100%; */
+  height: 60px;
+  padding: 5px;
 }
 .menu_container{
   display: flex;
@@ -52,3 +56,64 @@
 .bgRed{
   border-radius: 5px;
 }
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.container{
+  width: 500px;
+  height: 100px;
+  color: #ffffff;
+}
+.button_container{
+  display: grid;
+  justify-items: center;
+  padding-top: 40px;
+}
+.button_container a{
+  width: 80px;
+  border: solid 1px;
+  padding: 3px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button_container a:hover, 
+.button_container a:focus,
+.current_style {
+  background-color: #204b56;
+}
+/* 
+.button_container{
+  display: grid;
+  justify-items: center;
+  width: 300px;
+  margin: 0px auto;
+  background-color: chocolate;
+  border-radius: 0 0 150px 150px;
+  height: 150px;
+}
+.button_container a{
+  width: 80px;
+  padding: 3px;
+  margin: 10px;
+  cursor: pointer;
+}
+.button_container a:hover, 
+.button_container a:focus {
+  background-color: #204b56;
+}
+
+.button_container a:nth-child(1){
+  grid-column: 1;
+}
+.button_container a:nth-child(2){
+  grid-column: 2;
+}
+.button_container a:nth-child(3){
+  grid-column: 3;
+} */

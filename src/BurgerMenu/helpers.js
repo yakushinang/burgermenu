@@ -7,6 +7,10 @@ const MENU_ANIMATIONS_TYPES = {
     fallDown:{
         value: 'fallDown',
         className: 'fallDown' 
+    },
+    doteLeft:{
+        value: 'doteLeft',
+        className: 'doteLeft'
     }
 }
 
@@ -30,7 +34,7 @@ export function applyButtonElementsStyles(buttonWidth , buttonHeight, transition
     const NONE_BORDER_SIZE_RATIO = 0.9
     const NONE_BORDER_PADDING_RATIO = 0.1
 
-    const padding = buttonBorder? (buttonHeight*WITH_BORDER_PADDING_RATIO/2-1) + "px " +( buttonWidth*WITH_BORDER_PADDING_RATIO/2-1) + "px" : (buttonHeight*NONE_BORDER_PADDING_RATIO/2) + "px " +( buttonWidth*NONE_BORDER_PADDING_RATIO/2)+ "px"
+    const padding = buttonBorder? (buttonHeight*WITH_BORDER_PADDING_RATIO/2-1) + "px " : (buttonHeight*NONE_BORDER_PADDING_RATIO/2) + "px " +( buttonWidth*NONE_BORDER_PADDING_RATIO/2)+ "px"
     const newWidth = buttonBorder ? buttonWidth*WITH_BORDER_SIZE_RATIO : buttonWidth *NONE_BORDER_SIZE_RATIO
     const newHeight = buttonBorder ? buttonHeight*WITH_BORDER_SIZE_RATIO : buttonHeight *NONE_BORDER_SIZE_RATIO
     const border = buttonBorder ? "solid 1px #ceff7a" : " none"
