@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a73fe6447b94b4c156d7f78ecbb667ab",
+    "revision": "b87cd1380c454ee0a53fbb39152ef532",
     "url": "/burgermenu/index.html"
   },
   {
-    "revision": "34a51d24b96767ea8678",
-    "url": "/burgermenu/static/css/main.c3c994c6.chunk.css"
+    "revision": "094c9fe8422d4b65aefb",
+    "url": "/burgermenu/static/css/main.74b50e78.chunk.css"
   },
   {
-    "revision": "86bc0f961c54f0f759e2",
-    "url": "/burgermenu/static/js/2.40674b8e.chunk.js"
+    "revision": "acf2a47c3e8f33174ccf",
+    "url": "/burgermenu/static/js/2.0ad057a0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/burgermenu/static/js/2.40674b8e.chunk.js.LICENSE.txt"
+    "url": "/burgermenu/static/js/2.0ad057a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34a51d24b96767ea8678",
-    "url": "/burgermenu/static/js/main.824f983b.chunk.js"
+    "revision": "094c9fe8422d4b65aefb",
+    "url": "/burgermenu/static/js/main.fc75d303.chunk.js"
   },
   {
     "revision": "2c8a0cc554e7de7f53f6",
