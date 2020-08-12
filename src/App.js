@@ -64,7 +64,7 @@ function App() {
       <div className="menuBar">
               <BurgerMenu 
                     // width= {'auto'}
-                    height = {'auto'}
+                    // height = {'auto'}
                     isOpen  = {false}
                     onEnter={myOpeningAllert} 
                     onEntering={myStartTtansition}
@@ -77,7 +77,7 @@ function App() {
                     buttonBorder = {buttonBorder}
                     // transitionDuration="0.6"
                     menuAnimation = {menuAnimation}
-                    menuBarTop = {70}
+                    menuBarTop = {47}
                     classes={{mainContainer: notransition}} 
                     >
                   <button dtat-href="#hi" >illustrations</button>
@@ -87,13 +87,14 @@ function App() {
       <div className="wrapper">
         <div className="container">
           <h1>animated-burger-menu</h1>
-          <div className="radio_button_container">
+          <p>An overlay React Menu with a collection of effects and styles using CSS transitions.</p>
+          {/* <div className="radio_button_container">
             <div>
             <label for="border">
                 <input type="checkbox" id="radio_input" name="border" value="border" defaultChecked={buttonBorder}  onChange={onChangeBorderButt} />
                 Whith Button Border</label>
             </div>
-          </div>
+          </div> */}
           <div className="button_container" ref={buttonContainer}>
             <a className="current_style" onClick={chooseStyle}>slideLeft</a>
             <a onClick={chooseStyle}>fallDown</a>
