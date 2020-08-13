@@ -119,7 +119,7 @@
   background-color: #1b8c1d;
   color: #ceff7a;
   box-shadow: 0px 17px 12px -21px #013102;
-
+  transition: 0.2s;
   border: dotted 3px #21981f;
   background: radial-gradient(circle, rgb(63 173 63) 7%, rgb(52 147 53) 112%);
   /* font-family: cursive; */

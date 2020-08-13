@@ -98,7 +98,7 @@ function App() {
           <div className="button_container" ref={buttonContainer}>
             <a className="current_style" onClick={chooseStyle}>slideLeft</a>
             <a onClick={chooseStyle}>fallDown</a>
-            <a onClick={chooseStyle}>doteLeft</a>
+            {/* <a onClick={chooseStyle}>doteLeft</a> */}
           </div>
           
         </div>
